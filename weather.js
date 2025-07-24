@@ -6,7 +6,7 @@ function Get_weather_info(){
     CityInput=document.querySelector(".CityInput");
     cityValue=CityInput.value;
     if(cityValue){
-            let API_KEY=`b274c7dcc7b8d60b2a5f0db8962eec6c`;
+            let API_KEY=`***I removed my API for Privacy reasons***`;
             fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&appid=${API_KEY}`)
                 .then(response => response.json())
                 .then(data =>{ 
