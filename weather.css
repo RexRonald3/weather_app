@@ -10,7 +10,7 @@ html,body{
     overflow: hidden;
 }
 body{
-    background: url("./observation-urban-building-business-steel.jpg") no-repeat center center fixed;
+    background: url("./observation-urban-building-business-steel.webp") no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
